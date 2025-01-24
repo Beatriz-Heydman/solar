@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SolarVolt</title>
     <link rel="stylesheet" href="css/main.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,10 +14,48 @@
     />
   </head>
 
-  <body>
-    <div class="text-9xl font-semibold bg-red-300">DNA SolarVolt</div>
-    <p class="text-lg bg-dark_gray">
-      This is a sample paragraph using the Roboto font.
-    </p>
+  <body class="min-h-[100vh]">
+    <main
+      style="
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: linear-gradient(to right, #081627, #08162799),
+          url(../public/assets/images/main_background.png);
+      "
+    >
+      <header class="w-full h-20 flex flex-row justify-between items-end px-16">
+        <img src="/public/assets/images/log-group.svg" alt="" />
+
+        <div class="flex gap-8">
+          <nav class="text-white flex gap-4 items-end">
+            <a href="" class="header_button"> Como funciona</a>
+            <a href="" class="header_button">Soluções</a>
+            <a href="" class="header_button">Projetos</a>
+            <a href="" class="header_button">Solicitar orçamento</a>
+          </nav>
+
+          <div class="menu_hamburger_container">
+            <div class="menu_hamburger_bar_item"></div>
+            <div class="menu_hamburger_bar_item"></div>
+            <div class="menu_hamburger_bar_item"></div>
+          </div>
+        </div>
+      </header>
+
+      <div
+        class="flex-1 h-full px-4 w-4/5 m-auto flex flex-col justify-center items-start gap-6 lg:w-8/12"
+      >
+        <div class="w-full">
+          <h1 class="text-white text-4xl font-semibold sm:text-7xl">
+            Conheça a
+          </h1>
+          <h1 class="text-yellow text-2xl font-semibold sm:text-7xl">
+            SolarVolt Energia
+          </h1>
+        </div>
+        <span class="text-white">Ser sustentável nunca foi tão lucrativo.</span>
+      </div>
+    </main>
   </body>
 </html>
