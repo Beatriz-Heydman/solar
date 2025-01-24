@@ -16,7 +16,7 @@
   }
 
   .section_title {
-    @apply text-5xl text-white font-semibold max-w-[312px];
+    @apply text-3xl md:text-5xl text-white font-semibold max-w-[312px];
   }
 
   .section_buttons {
@@ -24,7 +24,7 @@
   }
 
   .objective_card {
-    @apply max-w-[283px] bg-blue p-8 h-fit rounded-lg text-center flex flex-col gap-4 justify-center items-center;
+    @apply lg:max-w-[283px] bg-blue p-8 h-fit rounded-lg text-center flex flex-col gap-4 justify-center items-center;
   }
 
   .objective_card_title {
@@ -40,7 +40,7 @@
   }
 
   .section_padding {
-    @apply px-28 py-32;
+    @apply px-14 py-16 md:px-28 md:py-32;
   }
 
   .difference_card {
