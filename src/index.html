@@ -60,7 +60,7 @@
       </div>
     </main>
 
-    <section class="bg-dark_gray">
+    <div class="bg-dark_gray">
       <!-- Section 1 -->
       <div class="w-full flex flex-col relative">
         <img
@@ -80,6 +80,7 @@
               <h6 class="text-yellow font-semibold text-xl">
                 Experiência comprovada
               </h6>
+
               <div class="w-8 h-1 bg-yellow rounded-full"></div>
             </div>
 
@@ -98,27 +99,23 @@
             <div class="flex flex-col gap-6">
               <div class="section_buttons">
                 Segurança na hora de investir
-                <img src="/public/assets/icons/plus.svg" alt="" />
+                <img width="32" src="/public/assets/icons/plus.svg" alt="" />
               </div>
               <div class="section_buttons">
                 Nosso propósito é construir um futuro melhor
-                <img src="/public/assets/icons/plus.svg" alt="" />
+                <img width="32" src="/public/assets/icons/plus.svg" alt="" />
               </div>
               <div class="section_buttons">
                 Nossa história
-                <img src="/public/assets/icons/plus.svg" alt="" />
+                <img width="32" src="/public/assets/icons/plus.svg" alt="" />
               </div>
             </div>
           </div>
         </div>
 
-        <div
+        <section
           class="w-full flex-col xl:flex-row justify-between gap-16 flex section_padding"
         >
-          <div
-            class="absolute w-full max-w-[826px] right-[-20%] h-[1033px] blur-[200px] bg-[#1382EC] opacity-20 rounded-full"
-          ></div>
-
           <h1 class="section_title">
             DNA <br />
             SolarVolt
@@ -163,12 +160,10 @@
               </p>
             </div>
           </div>
-        </div>
+        </section>
       </div>
 
-      <!-- Section 2 -->
-
-      <div
+      <section
         class="bg-white relative flex-col gap-16 lg:flex-row section_padding flex justify-between rounded-2xl"
       >
         <div
@@ -248,10 +243,9 @@
             </span>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Section 3 -->
-      <div
+      <section
         class="w-full flex flex-col gap-[220px] bg-dark_gray section_padding"
       >
         <div
@@ -265,7 +259,9 @@
               src="/public/assets/images/cut-logo.svg"
               alt=""
             />
-            <h2 class="section_title max-w-[unset] w-full">Onde estamos</h2>
+            <h2 class="section_title max-w-[unset] w-full z-10">
+              Onde estamos
+            </h2>
             <p class="text-white font-thin">
               Com sede no estado de Minas Gerais, já instalamos mais de 300 MWp
               de sistemas fotovoltaicos conectados à rede em 16 estados do país,
@@ -288,7 +284,7 @@
             </h2>
 
             <div
-              class="w-full items-center flex-wrap flex justify-between gap-4"
+              class="w-full items-center flex-wrap flex justify-between gap-16"
             >
               <div class="flex-1 flex flex-col items-center gap-6">
                 <img
@@ -325,7 +321,7 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
