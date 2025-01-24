@@ -14,4 +14,28 @@
   .menu_hamburger_bar_item {
     @apply w-full h-1 bg-white rounded-full;
   }
+
+  .section_title {
+    @apply text-5xl text-white font-semibold max-w-[312px];
+  }
+
+  .section_buttons {
+    @apply flex justify-between text-white border-solid border-b border-medium_gray pb-5 first:pt-6 first:border-solid first:border-t first:border-medium_gray;
+  }
+
+  .objective_card {
+    @apply bg-blue p-8 rounded-lg text-center flex flex-col gap-4 justify-center items-center;
+  }
+
+  .objective_card_title {
+    @apply text-[1.375rem] font-semibold text-white;
+  }
+
+  .objective_card_description {
+    @apply font-thin text-white;
+  }
+
+  .objective_card_icon {
+    @apply overflow-hidden w-[84px] h-[84px] bg-black;
+  }
 }
