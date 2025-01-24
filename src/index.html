@@ -54,21 +54,28 @@
             SolarVolt Energia
           </h1>
         </div>
-        <span class="text-white">Ser sustentável nunca foi tão lucrativo.</span>
+        <span class="text-white font-thin"
+          >Ser sustentável nunca foi tão lucrativo.</span
+        >
       </div>
     </main>
 
     <section class="bg-dark_gray">
       <!-- Section 1 -->
-      <div class="w-full flex flex-col">
+      <div class="w-full flex flex-col relative">
+        <img
+          class="absolute opacity-[0.1] h-[480px] left-[-10%] top-[25%]"
+          src="../public/assets/images/logo.svg"
+        />
         <div
-          class="w-full flex flex-row justify-between items-center section_padding"
+          class="absolute w-[826px] left-[-20%] h-[1033px] blur-[200px] bg-[#1382EC] opacity-20 rounded-full"
+        ></div>
+        <div
+          class="relative w-full flex flex-row justify-between items-start section_padding"
         >
-          <div class="w-full h-full">
-            <h1 class="section_title">Como nos destacamos</h1>
-          </div>
+          <h1 class="section_title">Como nos destacamos</h1>
 
-          <div class="w-full h-full flex flex-col gap-6">
+          <div class="max-w-[776px] w-full h-full flex flex-col gap-6">
             <div class="flex justify-between items-center">
               <h6 class="text-yellow font-semibold text-xl">
                 Experiência comprovada
@@ -77,12 +84,12 @@
             </div>
 
             <div class="flex flex-col gap-6">
-              <p class="text-white">
+              <p class="text-white font-thin">
                 Essa é a principal característica da SolarVolt quando o assunto
                 é fornecimento e construção de soluções completas de energia
                 solar fotovoltaica.
               </p>
-              <p class="text-white">
+              <p class="text-white font-thin">
                 Estamos comprometidos em atender com responsabilidade e
                 eficiência clientes corporativos dos mais diversos segmentos.
               </p>
@@ -105,15 +112,15 @@
           </div>
         </div>
 
-        <div class="w-full flex flex-row section_padding">
-          <div class="w-full flex flex-row justify-between items-center">
-            <h1 class="section_title">
-              DNA <br />
-              SolarVolt
-            </h1>
-          </div>
+        <div
+          class="w-full justify-between gap-16 flex flex-row section_padding"
+        >
+          <h1 class="section_title">
+            DNA <br />
+            SolarVolt
+          </h1>
 
-          <div class="flex flex-row gap-8">
+          <div class="z-10 flex flex-row gap-8">
             <div class="objective_card">
               <img
                 height="44px"
@@ -130,7 +137,7 @@
               </p>
             </div>
 
-            <div class="objective_card">
+            <div class="objective_card translate-y-[-64px]">
               <img src="/public/assets/icons/target.svg" alt="Visão icone" />
               <span class="objective_card_title">Visão</span>
               <p class="objective_card_description">
@@ -140,7 +147,7 @@
               </p>
             </div>
 
-            <div class="objective_card">
+            <div class="objective_card translate-y-[64px]">
               <img src="/public/assets/icons/diamond.svg" alt="" />
               <span class="objective_card_title">Valores</span>
               <p class="objective_card_description">
@@ -157,7 +164,7 @@
 
       <div class="bg-white section_padding flex justify-between rounded-2xl">
         <div class="flex flex-col justify-between items-end">
-          <h1 class="section_title text-dark_gray">O que nos diferencia</h1>
+          <h2 class="section_title text-dark_gray">O que nos diferencia</h2>
           <div class="flex gap-4">
             <button class="carousel_button">
               <img src="/public/assets/icons/arrow-left.svg" alt="" />
@@ -169,8 +176,14 @@
         </div>
 
         <div
-          class="max-w-[888px] flex gap-4 flex-col p-8 rounded-lg bg-gray_background"
+          class="max-w-[888px] relative flex gap-4 flex-col p-8 rounded-lg bg-gray_background"
         >
+          <img
+            src="/public/assets/images/gray-logo.svg"
+            class="absolute right-0 top-0"
+            alt="Logo"
+          />
+
           <h3 class="text-dark_gray font-semibold text-[1.375rem]">
             Equipe técnica qualificada
           </h3>
@@ -223,6 +236,72 @@
               energia e do consumo para acompanhamento dos resultados do
               projeto.
             </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div
+        class="w-full flex flex-col gap-[220px] bg-dark_gray section_padding"
+      >
+        <div
+          class="w-full section-padding flex flex-row justify-between items-center bg-blue rounded-2xl"
+        >
+          <div class="section_padding flex flex-col gap-8">
+            <h2 class="section_title w-full">Onde estamos</h2>
+            <p class="text-white">
+              Com sede no estado de Minas Gerais, já instalamos mais de 300 MWp
+              de sistemas fotovoltaicos conectados à rede em 16 estados do país,
+              sendo mais de 2.750 projetos vendidos. Temos abrangência nacional
+              através da rede de parceiros do G5 Solar.
+            </p>
+          </div>
+
+          <img src="/public/assets/images/brazil-map.svg" alt="" />
+        </div>
+
+        <div class="w-full flex flex-col justify-center items-center">
+          <div class="w-full items-center flex flex-col gap-16">
+            <h2 class="section_title max-w-[unset]">
+              O serviço de ponta a ponta da SolarVolt
+            </h2>
+
+            <div
+              class="w-full items-center flex-wrap flex justify-between gap-4"
+            >
+              <div class="flex-1 flex flex-col items-center gap-6">
+                <img
+                  src="/public/assets/illustrations/best-customer-experience.svg"
+                  alt=""
+                />
+                <span class="solar_volt_text_quality text-center"
+                  >Experiência <br />
+                  comprovada</span
+                >
+              </div>
+
+              <div class="flex-1 flex flex-col items-center gap-6">
+                <img src="/public/assets/illustrations/modelig-1.svg" alt="" />
+                <span class="solar_volt_text_quality">Projeto completo</span>
+              </div>
+
+              <div class="flex-1 flex flex-col items-center gap-6">
+                <img src="/public/assets/illustrations/like-1.svg" alt="" />
+                <span class="solar_volt_text_quality"
+                  >Equipamentos de qualidade</span
+                >
+              </div>
+
+              <div class="flex-1 flex flex-col items-center gap-6">
+                <img
+                  src="/public/assets/illustrations/outstanding-1.svg"
+                  alt=""
+                />
+                <span class="solar_volt_text_quality"
+                  >profissionais experientes</span
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>

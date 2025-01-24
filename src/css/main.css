@@ -20,11 +20,11 @@
   }
 
   .section_buttons {
-    @apply flex justify-between text-white border-solid border-b border-medium_gray pb-5 first:pt-6 first:border-solid first:border-t first:border-medium_gray;
+    @apply text-[1.375rem] font-semibold flex justify-between text-white border-solid border-b border-[#213342] pb-5 first:pt-6 first:border-solid first:border-t first:border-[#213342] cursor-pointer;
   }
 
   .objective_card {
-    @apply bg-blue p-8 rounded-lg text-center flex flex-col gap-4 justify-center items-center;
+    @apply max-w-[283px] bg-blue p-8 h-fit rounded-lg text-center flex flex-col gap-4 justify-center items-center;
   }
 
   .objective_card_title {
@@ -49,5 +49,9 @@
 
   .carousel_button {
     @apply w-[42px] h-[42px] transition-all bg-gray_background rounded-md flex items-center justify-center cursor-pointer hover:bg-yellow;
+  }
+
+  .solar_volt_text_quality {
+    @apply text-white font-semibold text-[1.375rem] text-center;
   }
 }
