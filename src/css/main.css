@@ -38,4 +38,16 @@
   .objective_card_icon {
     @apply overflow-hidden w-[84px] h-[84px] bg-black;
   }
+
+  .section_padding {
+    @apply px-28 py-32;
+  }
+
+  .difference_card {
+    @apply flex items-center gap-[0.625rem];
+  }
+
+  .carousel_button {
+    @apply w-[42px] h-[42px] transition-all bg-gray_background rounded-md flex items-center justify-center cursor-pointer hover:bg-yellow;
+  }
 }
