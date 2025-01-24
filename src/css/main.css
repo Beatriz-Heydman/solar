@@ -20,7 +20,7 @@
   }
 
   .section_buttons {
-    @apply gap-2 text-[1.375rem] font-semibold flex justify-between text-white border-solid border-b border-[#213342] pb-5 first:pt-6 first:border-solid first:border-t first:border-[#213342] cursor-pointer;
+    @apply items-center gap-2 text-[1.375rem] font-semibold flex justify-between text-white border-solid border-b border-[#213342] pb-5 first:pt-6 first:border-solid first:border-t first:border-[#213342] cursor-pointer;
   }
 
   .objective_card {
